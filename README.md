@@ -88,11 +88,11 @@ The object key consists of year (with sequence number), acquisition method, data
 - SEQUENCE
   - sequence number within the same acquisition year
 - METHOD
-  - LP / MMS / UAV
+  - LP
 - TYPE
   - Original / Ground / Grid / Waterbody / Ortho / Contour / RedReliefImage
 - FORMAT
-  - LAS / LAS / CSV / MESH / TIFF / JPEG / DXF
+  - LAS / TXT / CSV / MESH / TIFF / JPEG / DXF
 - ZONE
   - '09' : Kanagawa Prefecture
 - GRID_CODE_50000
