@@ -78,7 +78,7 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 The point cloud data is divided into a large number of files correspondings to each grid of the National Basic Map Grid system, at the level of map information 500. The name of each file contains the grid code.
 
-The datasets are available at `s3://kanagawa` bucket.
+The datasets are available at `s3://kanagawa-pointcloud` bucket.
 
 The object key consists of year (with sequence number), acquisition method, data type, zone number and grid codes.
 
@@ -98,6 +98,6 @@ The object key consists of year (with sequence number), acquisition method, data
   - grid code of Map Information Level 5000
 
 
-s3://kanagawa/**YEAR**/**SEQUENCE**/**METHOD**/**TYPE**/**ZONE**/**GRID_CODE_50000**/**GRID_CODE_5000**/**FILENAME**
+s3://kanagawa-pointcloud/**YEAR**/**SEQUENCE**/**METHOD**/**TYPE**/**ZONE**/**GRID_CODE_50000**/**GRID_CODE_5000**/**FILENAME**
 
 ***
