@@ -70,9 +70,10 @@ The acquisition of point cloud data was conducted over multiple years, with each
 | Type | Format | Description |
 | --- | --- | --- |
 | Original / Ground | LAS / TXT | Point cloud data obtained by lasar profiling |
-| Grid | CSV / TXT | Elevation data at regular intervals created based on ground data |
+| Grid | CSV / MESH | Elevation data at regular intervals created based on ground data |
+| Waterbody | TXT | Terrain data of a waterbody obtained by laser profiling |
 | Contour | DXF | Contour data automatically generated from grid data |
-| Ortho / Micro-relief | TIFF | Orthophoto and micro-relief data derived from aerial photographs and converted into orthographic projection |
+| Ortho / Micro-relief / RedReliefImage | TIFF / JPEG | Orthophoto and micro-relief data derived from aerial photographs and converted into orthographic projection |
 
 ### Files
 
@@ -89,9 +90,11 @@ The object key consists of year (with sequence number), acquisition method, data
 - METHOD
   - LP / MMS / UAV
 - TYPE
-  - Ground / Grid / Ortho / Contour
+  - Original / Ground / Grid / Waterbody / Ortho / Contour / RedReliefImage
+- FORMAT
+  - LAS / LAS / CSV / MESH / TIFF / JPEG / DXF
 - ZONE
-  - '08' : Shizuoka Prefecture
+  - '09' : Kanagawa Prefecture
 - GRID_CODE_50000
   - grid code of Map Information Level 50000
 - GRID_CODE_5000
