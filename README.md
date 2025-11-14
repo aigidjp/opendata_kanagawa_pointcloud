@@ -69,11 +69,12 @@ The acquisition of point cloud data was conducted over multiple years, with each
 
 | Type | Format | Description |
 | --- | --- | --- |
-| Original / Ground | LAS / TXT | Point cloud data obtained by lasar profiling |
+| Original / Ground | LAS / TXT | Point cloud data obtained by laser profiling |
 | Grid | CSV / MESH | Elevation data at regular intervals created based on ground data |
 | Waterbody | TXT | Terrain data of a waterbody obtained by laser profiling |
 | Contour | DXF | Contour data automatically generated from grid data |
-| Ortho / Micro-relief / RedReliefImage | TIFF / JPEG | Orthophoto and micro-relief data derived from aerial photographs and converted into orthographic projection |
+| Ortho / RedReliefImage | TIFF / JPEG | Orthophoto and Red-relief-image data derived from aerial photographs and converted into orthographic projection |
+| DEM / DCHM / DSM | CSV /TXT | DEM, DCHM, and DSM data obtained through laser profiling |
 
 ### Files
 
@@ -90,7 +91,7 @@ The object key consists of year (with sequence number), acquisition method, data
 - METHOD
   - LP
 - TYPE
-  - Original / Ground / Grid / Waterbody / Ortho / Contour / RedReliefImage
+  - Original / Ground / Grid / Waterbody / Ortho / Contour / RedReliefImage / DEM / DCHM / DSM
 - FORMAT
   - LAS / TXT / CSV / MESH / TIFF / JPEG / DXF
 - ZONE
@@ -101,6 +102,6 @@ The object key consists of year (with sequence number), acquisition method, data
   - grid code of Map Information Level 5000
 
 
-s3://kanagawa-pointcloud/**YEAR**/**SEQUENCE**/**METHOD**/**TYPE**/**ZONE**/**GRID_CODE_50000**/**GRID_CODE_5000**/**FILENAME**
+s3://kanagawa-pointcloud/**YEAR**/**SEQUENCE**/**METHOD**/**TYPE**/**FORMAT**/**ZONE**/**GRID_CODE_50000**/**GRID_CODE_5000**/**FILENAME**
 
 ***
