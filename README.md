@@ -71,7 +71,8 @@ The acquisition of point cloud data was conducted over multiple years, with each
 | --- | --- | --- |
 | Original / Ground | LAS / TXT | Point cloud data obtained by laser profiling |
 | Grid | CSV / MESH | Elevation data at regular intervals created based on ground data |
-| Waterbody | TXT | Terrain data of a waterbody obtained by laser profiling |
+| Waterbody | TXT / SHP| Terrain data of a waterbody obtained by laser profiling |
+| LowDensity | SHP | Terrain data of a low-density laser-return area |
 | Contour | DXF | Contour data automatically generated from grid data |
 | Ortho / RedReliefImage | TIFF / JPEG | Orthophoto and Red-relief-image data derived from aerial photographs and converted into orthographic projection |
 | DEM / DCHM / DSM | CSV /TXT | DEM, DCHM, and DSM data obtained through laser profiling |
@@ -91,7 +92,7 @@ The object key consists of year (with sequence number), acquisition method, data
 - METHOD
   - LP
 - TYPE
-  - Original / Ground / Grid / Waterbody / Ortho / Contour / RedReliefImage / DEM / DCHM / DSM
+  - Original / Ground / Grid / Waterbody / LowDensity / Ortho / Contour / RedReliefImage / DEM / DCHM / DSM
 - FORMAT
   - LAS / TXT / CSV / MESH / TIFF / JPEG / DXF
 - ZONE
