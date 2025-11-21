@@ -74,7 +74,7 @@ The acquisition of point cloud data was conducted over multiple years, with each
 | Waterbody | TXT / SHP| Terrain data of a waterbody obtained by laser profiling |
 | LowDensity | SHP | Terrain data of a low-density laser-return area |
 | Contour | DXF | Contour data automatically generated from grid data |
-| Ortho / RedReliefImage | TIFF / JPEG | Orthophoto and Red-relief-image data derived from aerial photographs and converted into orthographic projection |
+| Ortho / RedRelief | TIFF / JPEG | Orthophoto and Red-relief-image data derived from aerial photographs and converted into orthographic projection |
 | DEM / DCHM / DSM | CSV /TXT | DEM, DCHM, and DSM data obtained through laser profiling |
 
 ### Files
