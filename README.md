@@ -83,7 +83,7 @@ The point cloud data is divided into a large number of files correspondings to e
 
 The datasets are available at `s3://kanagawa-pointcloud` bucket.
 
-The object key consists of year (with sequence number), acquisition method, data type, zone number and grid codes.
+The object key consists of year (with sequence number), acquisition method, data type, data format, zone number and grid codes.
 
 - YEAR
   - year of data acquisition
